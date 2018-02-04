@@ -1,0 +1,48 @@
+a,
+p,
+a:focus,
+a:hover {
+  /*color: #fff;*/
+  color: black;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body{
+    padding-top: 1.5%;
+}
+
+.footer-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 5%;
+}
+
+hr { 
+    background: url('http://i.stack.imgur.com/37Aip.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
