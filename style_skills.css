@@ -1,0 +1,13 @@
+.stars{
+    vertical-align: middle;
+}
+
+.limit-right{
+    padding-right: 30%;
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 50%;
+}

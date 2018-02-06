@@ -46,3 +46,7 @@ hr:after {
     left: 50%;
     margin-left: 10px;
 }
+
+.tab-space {
+    padding-left:5em;
+}
