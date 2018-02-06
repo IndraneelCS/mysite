@@ -36,6 +36,7 @@ hr:after {
     height: 2px;
     top: 8px;
 }
+
 hr:before {
     left: 0;
     right: 50%;
