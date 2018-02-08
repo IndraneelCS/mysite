@@ -12,14 +12,7 @@ body{
     padding-top: 1.5%;
 }
 
-.footer-text{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-bottom: 5%;
-}
-
-hr { 
+hr.header-line { 
     background: url('http://i.stack.imgur.com/37Aip.png') no-repeat top center;
     background-size: contain;
     display: block;
@@ -27,8 +20,8 @@ hr {
     border: 0;
     position: relative;
 }
-hr:before,
-hr:after {
+hr.header-line:before,
+hr.header-line:after {
     content: '';
     display: block;
     position: absolute;
@@ -37,12 +30,12 @@ hr:after {
     top: 8px;
 }
 
-hr:before {
+hr.header-line:before {
     left: 0;
     right: 50%;
     margin-right: 10px;
 }
-hr:after {
+hr.header-line:after {
     right: 0;
     left: 50%;
     margin-left: 10px;
@@ -50,4 +43,8 @@ hr:after {
 
 .tab-space {
     padding-left:5em;
+}
+
+.footer-container{
+    background-color: #eee;
 }
