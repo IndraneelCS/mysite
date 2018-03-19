@@ -1,12 +1,5 @@
-.stars{
-    vertical-align: middle;
-}
-
-.limit-right{
-    padding-right: 30%;
-}
 .bg_img{
-    background-image: url(bg_skills.jpg);
+    background-image: url(bg_index.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -17,15 +10,11 @@
     background-size: cover;
 }
 
-.resume-container{
-    text-align: center;
-}
-
 .img_content{
     text-align: center;
-    padding: 4% 0;
-    color: white;
+    padding: 10% 0;
 }
-.img_content > p{
-    color: white;
+
+.main > p {
+    font-weight: normal;
 }
